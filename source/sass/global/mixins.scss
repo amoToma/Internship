@@ -3,3 +3,18 @@
   margin: 0;
   padding: 0;
 }
+
+@mixin link {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+@mixin rounding {
+  position: absolute;
+  content: "";
+  display: block;
+  background-image: url("../__spritemap#sprite-rounding-view");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,8 @@
+// .hero {
+//   height: 568px;
+// }
+
+
+.hero__list {
+  @include list;
+}
